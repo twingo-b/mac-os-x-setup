@@ -1,0 +1,106 @@
+---
+homebrew_taps:
+  - { tap: caskroom/cask }
+  - { tap: argon/mas }
+  - { tap: splhack/splhack }
+  - { tap: homebrew/binary }
+  - { tap: homebrew/dupes }
+  - { tap: caskroom/fonts }
+  - { tap: caskroom/versions }
+  - { tap: sanemat/font }
+  - { tap: kevwil/patches }
+  - { tap: bfontaine/utils }
+  - { tap: caarlos0/antibody }
+  - { tap: caius/jo }
+  - { tap: classmethod/repos }
+
+homebrew_cask_packages:
+  - { name: beyond-compare }
+  - { name: 1password }
+  - { name: screenhero }
+  - { name: cd-to } # open /opt/homebrew-cask/Caskroom/cd-to/2.6.0/cdto_2_6/iterm
+  - { name: clipy }
+  - { name: day-o }
+  - { name: iterm2 }
+  - { name: firefox }
+  - { name: google-chrome }
+  - { name: google-drive }
+  - { name: google-japanese-ime }
+  - { name: java }
+  - { name: karabiner }
+  - { name: vagrant }
+  - { name: virtualbox }
+  - { name: kindle }
+  - { name: alfred }
+  - { name: terraform }
+  - { name: packer }
+  - { name: consul }
+  - { name: vault }
+  - { name: dockertoolbox }
+  - { name: macvim-kaoriya }
+
+homebrew_packages:
+  - { name: brew-cask }
+  - { name: mas}
+  - { name: ghq, install_options: completions }
+  - { name: pcre }
+  - { name: libxml2 }
+  - { name: glib }
+  - { name: fontconfig }
+  - { name: readline }
+  - { name: openssl }
+  - { name: python }
+  - { name: python3 }
+  - { name: coreutils }
+  - { name: git }
+  - { name: zsh, install_options: disable-etcdir }
+  - { name: wget }
+  - { name: curl }
+  - { name: cmake }
+  - { name: autoconf }
+  - { name: automake }
+  - { name: pkg-config }
+  - { name: ctags }
+  - { name: tree }
+  - { name: nkf }
+  - { name: jq }
+  - { name: go }
+  - { name: direnv }
+  - { name: peco }
+  - { name: hub }
+  - { name: rbenv }
+  - { name: ruby-build }
+  - { name: rbenv-binstubs }
+  - { name: w3m }
+  - { name: tmux }
+  - { name: reattach-to-user-namespace }
+  - { name: sha2 }
+  - { name: xz }
+  - { name: lua }
+  - { name: neovim/neovim/neovim }
+  - { name: rsense }
+  - { name: pyenv }
+  - { name: pyenv-virtualenv }
+  - { name: plenv }
+  - { name: perl-build }
+  - { name: gpg }
+  - { name: msmtp }
+  - { name: urlview }
+  - { name: rfc }
+  - { name: mobile-shell }
+  - { name: ricty }
+  - { name: npm }
+  - { name: bash }
+  - { name: antibody }
+  - { name: freetype }
+  - { name: watch }
+  - { name: unar }
+  - { name: jo }
+  - { name: redpen }
+  - { name: aurl }
+  - { name: gnu-sed }
+  - { name: autojump }
+  - { name: the_silver_searcher }
+  - { name: awscli }
+  - { name: colordiff }
+
