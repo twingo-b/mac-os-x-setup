@@ -40,7 +40,6 @@ homebrew_cask_packages:
   - { name: macvim-kaoriya }
 
 homebrew_packages:
-  - { name: brew-cask }
   - { name: mas}
   - { name: ghq, install_options: completions }
   - { name: pcre }
