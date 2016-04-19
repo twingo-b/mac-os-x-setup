@@ -1,0 +1,6 @@
+---
+- name: for setting up the MacBook Pro
+  hosts: localhost
+  connection: local
+  roles:
+    - { role: homebrew, tags: [ homebrew ] }
