@@ -39,3 +39,18 @@
     state: "{{ item.state | default('latest') }}"
   with_items:
     - "{{ homebrew_packages }}"
+
+- name: Install Mac App Store packages using mas-cli
+  shell: |
+    mas_exists=$(mas list | awk '{print $1}' | grep '^{{ item.id }}$' | wc -l)
+    if [ ${mas_exists} -eq 0 ]; then
+      mas install {{ item.id }}
+    else
+      echo 'already installed' >&2
+      exit 0
+    fi
+  register: result
+  changed_when: "'already installed' not in result.stderr"
+  with_items:
+    - "{{ mas_packages }}"
+  tags: mas-cli

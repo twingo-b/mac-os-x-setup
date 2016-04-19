@@ -103,3 +103,9 @@ homebrew_packages:
   - { name: awscli }
   - { name: colordiff }
 
+mas_packages:
+  - { id: 539883307, name: LINE }
+  - { id: 409183694, name: Keynote }
+  - { id: 803453959, name: Slack }
+  - { id: 485812721, name: TweetDeck }
+  - { id: 417375580, name: BetterSnapTool }
