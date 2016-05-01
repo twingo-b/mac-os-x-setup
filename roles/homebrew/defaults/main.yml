@@ -110,3 +110,4 @@ mas_packages:
   - { id: 803453959, name: Slack }
   - { id: 485812721, name: TweetDeck }
   - { id: 417375580, name: BetterSnapTool }
+  - { id: 497799835, name: Xcode }
