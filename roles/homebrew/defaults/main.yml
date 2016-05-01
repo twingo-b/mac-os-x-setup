@@ -71,6 +71,7 @@ homebrew_packages:
   - { name: rbenv }
   - { name: ruby-build }
   - { name: rbenv-binstubs }
+  - { name: rbenv-gemset }
   - { name: w3m }
   - { name: tmux }
   - { name: reattach-to-user-namespace }
