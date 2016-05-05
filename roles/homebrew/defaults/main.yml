@@ -53,6 +53,7 @@ homebrew_packages:
   - { name: python3 }
   - { name: coreutils }
   - { name: git }
+  - { name: git-secrets }
   - { name: zsh, install_options: disable-etcdir }
   - { name: wget }
   - { name: curl }
