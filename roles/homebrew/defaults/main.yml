@@ -105,6 +105,7 @@ homebrew_packages:
   - { name: the_silver_searcher }
   - { name: awscli }
   - { name: colordiff }
+  - { name: swiftlint }
 
 mas_packages:
   - { id: 539883307, name: LINE }
