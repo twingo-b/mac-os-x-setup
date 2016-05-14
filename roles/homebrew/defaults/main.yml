@@ -106,6 +106,7 @@ homebrew_packages:
   - { name: awscli }
   - { name: colordiff }
   - { name: swiftlint }
+  - { name: tcptraceroute }
 
 mas_packages:
   - { id: 539883307, name: LINE }
