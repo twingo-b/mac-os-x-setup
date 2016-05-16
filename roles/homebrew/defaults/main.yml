@@ -15,6 +15,7 @@ homebrew_taps:
   - { tap: classmethod/repos }
 
 homebrew_cask_packages:
+  - { name: intellij-idea }
   - { name: wi2-connect }
   - { name: beyond-compare }
   - { name: 1password }
