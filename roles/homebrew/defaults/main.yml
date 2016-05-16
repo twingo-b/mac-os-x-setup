@@ -47,7 +47,7 @@ homebrew_packages:
   - { name: libxml2 }
   - { name: glib }
   - { name: fontconfig }
-  - { name: readline }
+  - { name: readline, state: linked, install_options: force }
   - { name: openssl }
   - { name: python }
   - { name: python3 }
