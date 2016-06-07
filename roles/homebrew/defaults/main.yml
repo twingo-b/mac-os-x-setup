@@ -42,8 +42,9 @@ homebrew_cask_packages:
   - { name: macvim-kaoriya }
 
 homebrew_packages:
-  - { name: p7zip}
-  - { name: mas}
+  - { name: socat }
+  - { name: p7zip }
+  - { name: mas }
   - { name: ghq, install_options: completions }
   - { name: pcre }
   - { name: libxml2 }
