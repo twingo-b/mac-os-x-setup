@@ -1,5 +1,6 @@
 ---
 homebrew_taps:
+  - { tap: codeclimate/formulae }
   - { tap: wercker/wercker }
   - { tap: caskroom/cask }
   - { tap: argon/mas }
@@ -43,6 +44,7 @@ homebrew_cask_packages:
   - { name: macvim-kaoriya }
 
 homebrew_packages:
+  - { name: codeclimate }
   - { name: wercker-cli }
   - { name: mysql }
   - { name: socat }
