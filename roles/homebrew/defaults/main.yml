@@ -1,5 +1,6 @@
 ---
 homebrew_taps:
+  - { tap: wercker/wercker }
   - { tap: caskroom/cask }
   - { tap: argon/mas }
   - { tap: splhack/splhack }
@@ -42,6 +43,7 @@ homebrew_cask_packages:
   - { name: macvim-kaoriya }
 
 homebrew_packages:
+  - { name: wercker-cli }
   - { name: mysql }
   - { name: socat }
   - { name: p7zip }
