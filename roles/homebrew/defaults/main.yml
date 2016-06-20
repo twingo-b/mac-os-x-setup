@@ -44,6 +44,7 @@ homebrew_cask_packages:
   - { name: macvim-kaoriya }
 
 homebrew_packages:
+  - { name: heroku-toolbelt }
   - { name: codeclimate }
   - { name: wercker-cli }
   - { name: mysql }
