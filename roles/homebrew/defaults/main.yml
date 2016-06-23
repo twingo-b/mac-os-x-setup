@@ -17,12 +17,12 @@ homebrew_taps:
   - { tap: classmethod/repos }
 
 homebrew_cask_packages:
+  - { name: wireshark }
   - { name: intellij-idea }
-  - { name: wi2-connect }
   - { name: beyond-compare }
   - { name: 1password }
   - { name: screenhero }
-  - { name: cd-to } # open /opt/homebrew-cask/Caskroom/cd-to/2.6.0/cdto_2_6/iterm
+  - { name: cd-to } # open /usr/local/Caskroom/cd-to/2.6.0/cdto_2_6/iterm
   - { name: clipy }
   - { name: day-o }
   - { name: iterm2 }
