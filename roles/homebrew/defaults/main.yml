@@ -17,6 +17,7 @@ homebrew_taps:
   - { tap: classmethod/repos }
 
 homebrew_cask_packages:
+  - { name: hosts }
   - { name: wireshark }
   - { name: intellij-idea }
   - { name: beyond-compare }
