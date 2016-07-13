@@ -47,6 +47,7 @@ homebrew_cask_packages:
   - { name: macvim-kaoriya }
 
 homebrew_packages:
+  - { name: pow }
   - { name: pgformatter }
   - { name: tig }
   - { name: v8-315 }
