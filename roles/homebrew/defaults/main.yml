@@ -47,6 +47,7 @@ homebrew_cask_packages:
   - { name: macvim-kaoriya }
 
 homebrew_packages:
+  - { name: postgresql }
   - { name: aws-shell }
   - { name: nvm }
   - { name: phantomjs }
