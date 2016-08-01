@@ -44,10 +44,12 @@ homebrew_cask_packages:
   - { name: packer }
   - { name: consul }
   - { name: vault }
-  - { name: dockertoolbox }
+  - { name: docker }
+  - { name: docker-toolbox }
   - { name: macvim-kaoriya }
 
 homebrew_packages:
+  - { name: imagemagick }
   - { name: highlight }
   - { name: ffmpeg }
   - { name: postgresql }
