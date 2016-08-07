@@ -42,8 +42,6 @@ homebrew_cask_packages:
   - { name: kindle }
   - { name: alfred }
   - { name: terraform }
-  - { name: packer }
-  - { name: consul }
   - { name: vault }
   - { name: docker }
   - { name: docker-toolbox }
@@ -116,7 +114,7 @@ homebrew_packages:
   - { name: urlview }
   - { name: rfc }
   - { name: mobile-shell }
-  - { name: ricty }
+  - { name: ricty, install_options: [powerline,vim-powerline] }
   - { name: npm }
   - { name: bash }
   - { name: antibody }
