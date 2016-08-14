@@ -4,4 +4,5 @@
   connection: local
   roles:
     - { role: homebrew, tags: [ homebrew ] }
+    - { role: mas,      tags: [ mas ] }
     - { role: lang,     tags: [ lang ] }
