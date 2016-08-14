@@ -1,0 +1,27 @@
+---
+gem_packages:
+  - { name: bundler }
+  - { name: rbenv-rehash }
+  - { name: pry }
+  - { name: rubocop }
+  - { name: travis }
+
+pip_packages:
+  - { name: powerline-status }
+  - { name: psutil }
+  - { name: netifaces }
+  - { name: ansible }
+  - { name: ansible_lint }
+  - { name: ansible_shell }
+  - { name: awslogs }
+  - { name: jmespath-terminal }
+  - { name: boto3 }
+  - { name: doc2dash }
+  - { name: sphinx }
+  - { name: guzzle_sphinx_theme }
+
+go_packages:
+  - { name: apex-shell, path: github.com/apex/apex-shell }
+
+# npm_packages:
+#   - { name: http-console }

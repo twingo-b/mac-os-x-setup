@@ -1,2 +1,2 @@
 ---
-- include: localhost.yml
+- include: local.yml
