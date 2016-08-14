@@ -122,6 +122,7 @@ homebrew_packages:
   - { name: autojump }
   - { name: the_silver_searcher }
   - { name: awscli }
+  - { name: awsebcli }
   - { name: colordiff }
   - { name: swiftlint }
   - { name: tcptraceroute }
