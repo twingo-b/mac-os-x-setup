@@ -1,0 +1,9 @@
+---
+ghq_root: "{{ ansible_user_dir }}/.ghq/github.com"
+
+git_repositories:
+  - { repo: "git@github.com:twingo-b/dotfiles.git", dest: "{{ ghq_root }}/twingo-b/dotfiles" }
+  - { repo: "https://github.com/ArtSabintsev/Solarized-Dark-for-Xcode.git", dest: "{{ ghq_root }}/Solarized-Dark-for-Xcode" }
+  - { repo: "https://github.com/XVimProject/XVim.git", dest: "{{ ghq_root }}/XVimProject/XVim" }
+  - { repo: "https://github.com/altercation/solarized.git", dest: "{{ ghq_root }}/altercation/solarized" }
+  - { repo: "https://github.com/jkaving/intellij-colors-solarized.git", dest: "{{ ghq_root }}/jkaving/intellij-colors-solarized" }

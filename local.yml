@@ -5,4 +5,5 @@
   roles:
     - { role: homebrew, tags: [ homebrew ] }
     - { role: mas,      tags: [ mas ] }
+    - { role: env,      tags: [ env ] }
     - { role: lang,     tags: [ lang ] }
