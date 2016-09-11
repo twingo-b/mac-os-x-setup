@@ -23,5 +23,5 @@ pip_packages:
 go_packages:
   - { name: apex-shell, path: github.com/apex/apex-shell }
 
-# npm_packages:
-#   - { name: http-console }
+npm_packages:
+  - { name: jsonlint }
