@@ -51,6 +51,7 @@ homebrew_cask_packages:
   - { name: macvim-kaoriya }
 
 homebrew_packages:
+  - { name: openshift-cli }
   - { name: mtr }
   - { name: remarshal }
   - { name: zplug }
