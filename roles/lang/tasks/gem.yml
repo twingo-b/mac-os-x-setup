@@ -21,6 +21,7 @@
 - name: Install gem pacakges
   gem:
     name: "{{ item.name }}"
+    user_install: no
     include_doc: yes
     state: "{{ item.state | default('latest') }}"
   with_items:

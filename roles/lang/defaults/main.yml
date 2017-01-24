@@ -1,5 +1,6 @@
 ---
 gem_packages:
+  - { name: docker-sync }
   - { name: bundler }
   - { name: rbenv-rehash }
   - { name: pry }
