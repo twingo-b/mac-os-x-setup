@@ -1,5 +1,6 @@
 ---
 homebrew_taps:
+  - { tap: jmespath/jmespath }
   - { tap: homebrew/versions }
   - { tap: codeclimate/formulae }
   - { tap: wercker/wercker }
@@ -53,6 +54,7 @@ homebrew_cask_packages:
   - { name: macvim-kaoriya }
 
 homebrew_packages:
+  - { name: jp }
   - { name: unison }
   - { name: fswatch }
   - { name: openshift-cli }
