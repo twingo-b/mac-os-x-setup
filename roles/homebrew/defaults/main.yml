@@ -54,6 +54,7 @@ homebrew_cask_packages:
   - { name: macvim-kaoriya }
 
 homebrew_packages:
+  - { name: amazon-ecs-cli }
   - { name: jp }
   - { name: unison }
   - { name: fswatch }
