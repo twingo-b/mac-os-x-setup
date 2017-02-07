@@ -6,7 +6,7 @@ homebrew_taps:
   - { tap: wercker/wercker }
   - { tap: caskroom/cask }
   - { tap: argon/mas }
-  - { tap: splhack/splhack }
+  - { tap: delphinus/macvim-kaoriya }
   - { tap: homebrew/binary }
   - { tap: homebrew/dupes }
   - { tap: caskroom/fonts }
