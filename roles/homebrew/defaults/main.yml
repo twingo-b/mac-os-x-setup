@@ -55,6 +55,7 @@ homebrew_cask_packages:
   - { name: macvim-kaoriya }
 
 homebrew_packages:
+  - { name: mosquitto }
   - { name: amazon-ecs-cli }
   - { name: jp }
   - { name: unison }
