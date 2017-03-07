@@ -83,6 +83,8 @@ homebrew_packages:
   - { name: p7zip }
   - { name: mas }
   - { name: ghq, install_options: completions }
+  - { name: cabal-install }
+  - { name: pandoc }
   - { name: pcre }
   - { name: libxml2 }
   - { name: glib }
