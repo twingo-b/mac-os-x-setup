@@ -23,7 +23,6 @@ homebrew_cask_packages:
   - { name: limechat }
   - { name: bitbar }
   - { name: sqlworkbenchj }
-  - { name: biba }
   - { name: skype }
   - { name: polycom-realpresence-desktop }
   - { name: amazon-workdocs }
@@ -45,7 +44,6 @@ homebrew_cask_packages:
   - { name: google-drive }
   - { name: google-japanese-ime }
   - { name: java }
-  - { name: karabiner }
   - { name: vagrant }
   - { name: virtualbox }
   - { name: kindle }
