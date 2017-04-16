@@ -122,7 +122,7 @@ homebrew_packages:
   - { name: urlview }
   - { name: rfc }
   - { name: mobile-shell }
-  - { name: ricty, install_options: [powerline,vim-powerline] }
+  - { name: ricty, install_options: powerline }
   - { name: npm }
   - { name: bash }
   - { name: antibody }
