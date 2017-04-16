@@ -9,3 +9,4 @@ git_repositories:
   - { repo: "https://github.com/XVimProject/XVim.git", dest: "{{ ghq_root }}/XVimProject/XVim" }
   - { repo: "https://github.com/altercation/solarized.git", dest: "{{ ghq_root }}/altercation/solarized" }
   - { repo: "https://github.com/jkaving/intellij-colors-solarized.git", dest: "{{ ghq_root }}/jkaving/intellij-colors-solarized" }
+  - { repo: "https://github.com/Lokaltog/vim-powerline.git", dest: "{{ ghq_root }}/Lokaltog/vim-powerline.git" } # fontforge -script vim-powerline/fontpatcher/fontpatcher  ~/Library/Fonts/Ricty-Regular.ttf && mv Ricty-Regular-Powerline.ttf ~/Library/Fonts/
