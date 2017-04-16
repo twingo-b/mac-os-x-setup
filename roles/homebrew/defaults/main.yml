@@ -115,7 +115,6 @@ homebrew_packages:
   - { name: xz }
   - { name: lua }
   - { name: neovim/neovim/neovim }
-  - { name: boneyard }
   - { name: plenv }
   - { name: perl-build }
   - { name: gpg }
