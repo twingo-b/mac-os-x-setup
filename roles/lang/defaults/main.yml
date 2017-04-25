@@ -1,5 +1,6 @@
 ---
 gem_packages:
+  - { name: cocoapods }
   - { name: docker-sync }
   - { name: bundler }
   - { name: rbenv-rehash }
