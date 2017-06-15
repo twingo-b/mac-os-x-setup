@@ -27,3 +27,5 @@ go_packages:
 npm_packages:
   - { name: serverless }
   - { name: jsonlint }
+  - { name: jslint }
+
