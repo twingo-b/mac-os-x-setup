@@ -138,6 +138,7 @@ homebrew_packages:
   - { name: gnu-sed }
   - { name: autojump }
   - { name: the_silver_searcher }
+  - { name: awslogs }
   - { name: awscli }
   - { name: awsebcli }
   - { name: colordiff }
