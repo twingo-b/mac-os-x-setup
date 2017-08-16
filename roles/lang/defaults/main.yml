@@ -16,7 +16,6 @@ pip_packages:
   - { name: ansible }
   - { name: ansible_lint }
   - { name: ansible_shell }
-  - { name: awslogs }
   - { name: jmespath-terminal }
   - { name: boto3 }
   - { name: doc2dash }
