@@ -52,6 +52,10 @@ homebrew_cask_packages:
   - { name: macvim-kaoriya }
 
 homebrew_packages:
+  - { name: opencv }
+  - { name: openexr }
+  - { name: eigen }
+  - { name: tbb }
   - { name: mitmproxy }
   - { name: wrk }
   - { name: nmap }
