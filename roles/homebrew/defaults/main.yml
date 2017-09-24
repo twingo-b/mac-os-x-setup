@@ -19,6 +19,7 @@ homebrew_taps:
   - { tap: classmethod/repos }
 
 homebrew_cask_packages:
+  - { name: google-backup-and-sync }
   - { name: amazon-workspaces }
   - { name: amazon-chime }
   - { name: limechat }
@@ -41,7 +42,6 @@ homebrew_cask_packages:
   - { name: day-o }
   - { name: iterm2 }
   - { name: google-chrome }
-  - { name: google-drive }
   - { name: google-japanese-ime }
   - { name: vagrant }
   - { name: virtualbox }
