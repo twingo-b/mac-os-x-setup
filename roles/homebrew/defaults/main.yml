@@ -52,6 +52,7 @@ homebrew_cask_packages:
   - { name: macvim-kaoriya }
 
 homebrew_packages:
+  - { name: watchman }
   - { name: racket }
   - { name: opencv }
   - { name: openexr }
