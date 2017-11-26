@@ -25,6 +25,7 @@ pip_packages:
 go_packages:
 
 npm_packages:
+  - { name: js-beautify }
   - { name: serverless }
   - { name: jsonlint }
   - { name: eslint }
