@@ -1,2 +1,2 @@
 ---
-- include: mas.yml
+- import_tasks: mas.yml
