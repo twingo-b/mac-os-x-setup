@@ -1,5 +1,6 @@
 ---
 gem_packages:
+  - { name: cfn-nag }
   - { name: cocoapods }
   - { name: docker-sync }
   - { name: bundler }
