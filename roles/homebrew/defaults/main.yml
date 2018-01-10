@@ -55,6 +55,7 @@ homebrew_cask_packages:
   - { name: macvim-kaoriya }
 
 homebrew_packages:
+  - { name: kops }
   - { name: kubernetes-cli }
   - { name: bison }
   - { name: watchman }
