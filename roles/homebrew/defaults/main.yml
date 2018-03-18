@@ -19,6 +19,7 @@ homebrew_taps:
   - { tap: classmethod/repos }
 
 homebrew_cask_packages:
+  - { name: powershell }
   - { name: adobe-acrobat-reader }
   - { name: x-lite }
   - { name: font-noto-sans-cjk-jp }
@@ -112,7 +113,7 @@ homebrew_packages:
   - { name: git-secrets }
   - { name: zsh, install_options: disable-etcdir }
   - { name: wget }
-  - { name: curl }
+  - { name: curl, state: linked, install_options: [ openssl, gssapi] }
   - { name: cmake }
   - { name: autoconf }
   - { name: automake }
