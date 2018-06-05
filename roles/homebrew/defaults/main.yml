@@ -4,13 +4,13 @@ homebrew_taps:
   - { tap: homebrew/versions }
   - { tap: codeclimate/formulae }
   - { tap: wercker/wercker }
-  - { tap: caskroom/cask }
+  - { tap: homebrew/cask }
   - { tap: argon/mas }
   - { tap: delphinus/macvim-kaoriya }
   - { tap: homebrew/binary }
   - { tap: homebrew/dupes }
-  - { tap: caskroom/fonts }
-  - { tap: caskroom/versions }
+  - { tap: homebrew/cask-fonts }
+  - { tap: homebrew/cask-versions }
   - { tap: sanemat/font }
   - { tap: kevwil/patches }
   - { tap: bfontaine/utils }
@@ -57,6 +57,7 @@ homebrew_cask_packages:
   - { name: macvim-kaoriya }
 
 homebrew_packages:
+  - { name: graphviz }
   - { name: htmldoc }
   - { name: markdown }
   - { name: kops }
