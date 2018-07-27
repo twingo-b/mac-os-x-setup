@@ -62,7 +62,6 @@ homebrew_packages:
   - { name: htmldoc }
   - { name: markdown }
   - { name: kops }
-  - { name: kubernetes-cli }
   - { name: bison }
   - { name: watchman }
   - { name: racket }
