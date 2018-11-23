@@ -1,5 +1,7 @@
 ---
 homebrew_taps:
+  - { tap: heroku/brew }
+  - { tap: versent/homebrew-taps }
   - { tap: jmespath/jmespath }
   - { tap: homebrew/versions }
   - { tap: codeclimate/formulae }
@@ -57,6 +59,7 @@ homebrew_cask_packages:
   - { name: macvim-kaoriya }
 
 homebrew_packages:
+  - { name: saml2aws }
   - { name: graphviz }
   - { name: htmldoc }
   - { name: markdown }
@@ -87,18 +90,17 @@ homebrew_packages:
   - { name: ffmpeg }
   - { name: postgresql }
   - { name: aws-shell }
-  - { name: phantomjs }
   - { name: pow }
   - { name: pgformatter }
   - { name: tig }
   - { name: v8-315 }
-  - { name: heroku-toolbelt }
+  - { name: heroku }
   - { name: codeclimate }
   - { name: wercker-cli }
   - { name: mysql }
   - { name: socat }
   - { name: p7zip }
-  - { name: mas }
+  # - { name: mas }
   - { name: ghq, install_options: completions }
   - { name: cabal-install }
   - { name: pandoc }
@@ -115,7 +117,7 @@ homebrew_packages:
   - { name: git-secrets }
   - { name: zsh, install_options: disable-etcdir }
   - { name: wget }
-  - { name: curl, state: linked, install_options: [ openssl, gssapi] }
+  - { name: curl, install_options: [ openssl, gssapi, nghttp2] }
   - { name: cmake }
   - { name: autoconf }
   - { name: automake }
@@ -157,7 +159,7 @@ homebrew_packages:
   - { name: the_silver_searcher }
   - { name: awslogs }
   - { name: awscli }
-  - { name: awsebcli }
+  #  - { name: awsebcli }
   - { name: colordiff }
   - { name: swiftlint }
   - { name: tcptraceroute }
