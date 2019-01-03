@@ -100,7 +100,7 @@ homebrew_packages:
   - { name: mysql }
   - { name: socat }
   - { name: p7zip }
-  # - { name: mas }
+  - { name: mas }
   - { name: ghq, install_options: completions }
   - { name: cabal-install }
   - { name: pandoc }
@@ -159,7 +159,7 @@ homebrew_packages:
   - { name: the_silver_searcher }
   - { name: awslogs }
   - { name: awscli }
-  #  - { name: awsebcli }
+  - { name: awsebcli }
   - { name: colordiff }
   - { name: swiftlint }
   - { name: tcptraceroute }
