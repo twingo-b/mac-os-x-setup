@@ -9,8 +9,6 @@ homebrew_taps:
   - { tap: homebrew/cask }
   - { tap: argon/mas }
   - { tap: delphinus/macvim-kaoriya }
-  - { tap: homebrew/binary }
-  - { tap: homebrew/dupes }
   - { tap: homebrew/cask-fonts }
   - { tap: homebrew/cask-versions }
   - { tap: sanemat/font }
@@ -21,6 +19,7 @@ homebrew_taps:
   - { tap: classmethod/repos }
 
 homebrew_cask_packages:
+  - { name: maven }
   - { name: gephi }
   - { name: powershell }
   - { name: adobe-acrobat-reader }
