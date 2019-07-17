@@ -19,6 +19,7 @@ homebrew_taps:
   - { tap: classmethod/repos }
 
 homebrew_cask_packages:
+  - { name: visual-studio-code }
   - { name: obs }
   - { name: maven }
   - { name: gephi }
