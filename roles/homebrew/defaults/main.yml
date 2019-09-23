@@ -19,9 +19,9 @@ homebrew_taps:
   - { tap: classmethod/repos }
 
 homebrew_cask_packages:
+  - { name: xquartz }
   - { name: visual-studio-code }
   - { name: obs }
-  - { name: maven }
   - { name: gephi }
   - { name: powershell }
   - { name: adobe-acrobat-reader }
@@ -60,6 +60,7 @@ homebrew_cask_packages:
   - { name: macvim-kaoriya }
 
 homebrew_packages:
+  - { name: maven }
   - { name: saml2aws }
   - { name: graphviz }
   - { name: htmldoc }
