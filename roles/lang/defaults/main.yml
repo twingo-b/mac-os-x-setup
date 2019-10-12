@@ -26,6 +26,8 @@ pip_packages:
 go_packages:
 
 npm_packages:
+  - { name: '@aws-amplify/cli' }
+  - { name: amplify-category-video }
   - { name: aws-cdk }
   - { name: cfn-lint }
   - { name: js-beautify }
