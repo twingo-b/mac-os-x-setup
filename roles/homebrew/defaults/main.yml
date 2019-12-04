@@ -93,7 +93,6 @@ homebrew_packages:
   - { name: highlight }
   - { name: ffmpeg }
   - { name: postgresql }
-  - { name: aws-shell }
   - { name: pow }
   - { name: pgformatter }
   - { name: tig }
@@ -161,9 +160,6 @@ homebrew_packages:
   - { name: gnu-sed }
   - { name: autojump }
   - { name: the_silver_searcher }
-  - { name: awslogs }
-  - { name: awscli }
-  - { name: awsebcli }
   - { name: colordiff }
   - { name: swiftlint }
   - { name: tcptraceroute }
