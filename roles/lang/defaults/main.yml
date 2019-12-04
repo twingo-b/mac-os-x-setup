@@ -10,6 +10,11 @@ gem_packages:
   - { name: travis }
 
 pip_packages:
+  - { name: pip }
+  - { name: awscli }
+  - { name: aws-shell }
+  - { name: awslogs }
+  - { name: awsebcli }
   - { name: chalice }
   - { name: powerline-status }
   - { name: psutil }
