@@ -31,13 +31,10 @@ pip_packages:
 go_packages:
 
 npm_packages:
+  # recommend using 'npm install --save-dev xxx' & 'npx xxx'
   - { name: npm }
-  - { name: '@aws-amplify/cli' }
-  - { name: amplify-category-video }
-  - { name: aws-cdk }
   - { name: cfn-lint }
   - { name: js-beautify }
-  - { name: serverless }
   - { name: jsonlint }
   - { name: eslint }
   - { name: jslint }
