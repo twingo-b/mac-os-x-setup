@@ -31,6 +31,7 @@ pip_packages:
 go_packages:
 
 npm_packages:
+  - { name: npm }
   - { name: '@aws-amplify/cli' }
   - { name: amplify-category-video }
   - { name: aws-cdk }
