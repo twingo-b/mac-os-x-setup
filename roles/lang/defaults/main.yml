@@ -33,6 +33,7 @@ go_packages:
 npm_packages:
   # recommend using 'npm install --save-dev xxx' & 'npx xxx'
   - { name: npm }
+  - { name: yarn }
   - { name: cfn-lint }
   - { name: js-beautify }
   - { name: jsonlint }
