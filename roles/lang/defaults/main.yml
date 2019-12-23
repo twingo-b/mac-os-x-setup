@@ -34,6 +34,7 @@ npm_packages:
   # recommend using 'npm install --save-dev xxx' & 'npx xxx'
   - { name: npm }
   - { name: yarn }
+  - { name: '@aws-amplify/cli' }
   - { name: cfn-lint }
   - { name: js-beautify }
   - { name: jsonlint }
