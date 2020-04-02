@@ -61,6 +61,7 @@ homebrew_cask_packages:
   - { name: macvim-kaoriya }
 
 homebrew_packages:
+  - { name: expect }
   - { name: fujiwara/tap/aswrap }
   - { name: maven }
   - { name: saml2aws }
