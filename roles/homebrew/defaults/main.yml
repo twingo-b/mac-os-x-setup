@@ -1,5 +1,6 @@
 ---
 homebrew_taps:
+  - { tap: decors/cipherscan }
   - { tap: heroku/brew }
   - { tap: versent/homebrew-taps }
   - { tap: jmespath/jmespath }
@@ -61,6 +62,7 @@ homebrew_cask_packages:
   - { name: macvim-kaoriya }
 
 homebrew_packages:
+  - { name: cipherscan, install_options: HEAD }
   - { name: expect }
   - { name: fujiwara/tap/aswrap }
   - { name: maven }
