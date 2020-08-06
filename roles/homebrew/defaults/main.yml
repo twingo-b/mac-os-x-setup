@@ -62,6 +62,7 @@ homebrew_cask_packages:
   - { name: macvim-kaoriya }
 
 homebrew_packages:
+  - { name: aws/tap/copilot-cli }
   - { name: cipherscan, install_options: HEAD }
   - { name: expect }
   - { name: fujiwara/tap/aswrap }
