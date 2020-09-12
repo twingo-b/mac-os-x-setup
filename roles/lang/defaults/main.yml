@@ -36,6 +36,7 @@ npm_packages:
   - { name: npm }
   - { name: yarn }
   - { name: '@aws-amplify/cli' }
+  - { name: cli-sql-formatter }
   - { name: cfn-lint }
   - { name: js-beautify }
   - { name: jsonlint }
