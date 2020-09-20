@@ -37,7 +37,6 @@ homebrew_cask_packages:
   - { name: bitbar }
   - { name: sqlworkbenchj }
   - { name: skype }
-  - { name: amazon-workdocs }
   - { name: quitter }
   - { name: skitch }
   - { name: dash }
