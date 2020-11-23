@@ -20,7 +20,7 @@ pip_packages:
   - { name: powerline-status }
   - { name: psutil }
   - { name: netifaces }
-  - { name: ansible }
+  - { name: ansible<2.10.0 }
   - { name: ansible_lint }
   - { name: ansible_shell }
   - { name: jmespath-terminal }
