@@ -14,10 +14,6 @@
   args:
     creates: /usr/local/bin/brew
 
-- name: Downgrading homebrew to 2.6.2
-  shell: |
-    git -C /usr/local/Homebrew fetch --tags && git -C /usr/local/Homebrew checkout 2.6.2
-
 - name: Add homebrew taps
   homebrew_tap:
     tap: "{{ item.tap }}"
@@ -30,8 +26,9 @@
     update_homebrew: yes
 
 - name: Install homebrew cask packages
-  homebrew_cask:
+  homebrew:
     name: "{{ item.name }}"
+    install_options: 'cask,appdir=/Applications'
     state: present
   with_items:
     - "{{ homebrew_cask_packages }}"
