@@ -14,6 +14,10 @@
   args:
     creates: /usr/local/bin/brew
 
+- name: Downgrading homebrew to 2.6.2
+  shell: |
+    git -C /usr/local/Homebrew fetch --tags && git -C /usr/local/Homebrew checkout 2.6.2
+
 - name: Add homebrew taps
   homebrew_tap:
     tap: "{{ item.tap }}"
