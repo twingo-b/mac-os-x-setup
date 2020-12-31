@@ -26,13 +26,11 @@ homebrew_cask_packages:
   - { name: gephi }
   - { name: powershell }
   - { name: adobe-acrobat-reader }
-  - { name: x-lite }
   - { name: font-noto-sans-cjk-jp }
   - { name: quip }
   - { name: google-backup-and-sync }
   - { name: amazon-workspaces }
   - { name: amazon-chime }
-  - { name: limechat }
   - { name: bitbar }
   - { name: sqlworkbenchj }
   - { name: skype }
@@ -44,7 +42,6 @@ homebrew_cask_packages:
   - { name: intellij-idea }
   - { name: beyond-compare }
   - { name: 1password }
-  - { name: screenhero }
   - { name: ealeksandrov-cd-to } # open /usr/local/Caskroom/ealeksandrov-cd-to/2.8.0/cd_to_2_8/iterm
   - { name: clipy }
   - { name: day-o }
@@ -108,7 +105,7 @@ homebrew_packages:
   - { name: socat }
   - { name: p7zip }
   - { name: mas }
-  - { name: ghq, install_options: completions }
+  - { name: ghq }
   - { name: cabal-install }
   - { name: pandoc }
   - { name: pcre }
@@ -122,9 +119,9 @@ homebrew_packages:
   - { name: coreutils }
   - { name: git }
   - { name: git-secrets }
-  - { name: zsh, install_options: disable-etcdir }
+  - { name: zsh }
   - { name: wget }
-  - { name: curl, install_options: [ openssl, gssapi, nghttp2] }
+  - { name: curl }
   - { name: cmake }
   - { name: autoconf }
   - { name: automake }
@@ -150,7 +147,7 @@ homebrew_packages:
   - { name: msmtp }
   - { name: urlview }
   - { name: mobile-shell }
-  - { name: ricty, install_options: powerline }
+  - { name: ricty, install_options: with-powerline }
   - { name: npm }
   - { name: bash }
   - { name: antibody }
