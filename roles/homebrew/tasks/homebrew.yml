@@ -28,7 +28,7 @@
 - name: Install homebrew cask packages
   homebrew:
     name: "{{ item.name }}"
-    install_options: 'cask'
+    install_options: 'cask,appdir=/Applications'
     state: present
   with_items:
     - "{{ homebrew_cask_packages }}"
