@@ -25,9 +25,9 @@
   with_items:
     - "{{ homebrew_taps }}"
 
-- name: Update homebrew
-  homebrew:
-    update_homebrew: yes
+# - name: Update homebrew
+#   homebrew:
+#     update_homebrew: yes
 
 - name: Install homebrew cask packages
   homebrew_cask:
