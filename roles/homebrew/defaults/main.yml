@@ -13,7 +13,6 @@ homebrew_taps:
   - { tap: homebrew/cask-versions }
   - { tap: sanemat/font }
   - { tap: kevwil/patches }
-  - { tap: bfontaine/utils }
   - { tap: caarlos0/antibody }
   - { tap: caius/jo }
   - { tap: classmethod/repos }
@@ -150,7 +149,6 @@ homebrew_packages:
   - { name: gpg }
   - { name: msmtp }
   - { name: urlview }
-  - { name: rfc }
   - { name: mobile-shell }
   - { name: ricty, install_options: powerline }
   - { name: npm }
