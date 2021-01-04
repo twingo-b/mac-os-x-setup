@@ -1,9 +1,9 @@
 ---
 mas_packages:
+  - { id: 414030210, name: LimeChat }
   - { id: 665678267, name: Battery Time Remaining 2 }
   - { id: 549083868, name: Display Menu }
   - { id: 1037126344, name: Apple Configurator 2 } # cfgutil
-  - { id: 492498910, name: Kitabu }
   - { id: 1295203466, name: Microsoft Remote Desktop }
   - { id: 539883307, name: LINE }
   - { id: 409183694, name: Keynote }
