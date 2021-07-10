@@ -59,6 +59,7 @@ homebrew_cask_packages:
   - { name: macvim-kaoriya }
 
 homebrew_packages:
+  - { name: yukiarrr/tap/ecsk }
   - { name: dive }
   - { name: openvpn }
   - { name: aws/tap/copilot-cli }
