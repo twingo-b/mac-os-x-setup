@@ -34,6 +34,7 @@ go_packages:
 npm_packages:
   # recommend using 'npm install --save-dev xxx' & 'npx xxx'
   - { name: npm }
+  - { name: npm-check-updates }
   - { name: yarn }
   - { name: aws-cdk }
   - { name: '@aws-amplify/cli' }
