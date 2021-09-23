@@ -30,7 +30,7 @@ homebrew_cask_packages:
   - { name: adobe-acrobat-reader }
   - { name: font-noto-sans-cjk-jp }
   - { name: quip }
-  - { name: google-backup-and-sync }
+  - { name: google-drive }
   - { name: amazon-workspaces }
   - { name: amazon-chime }
   - { name: bitbar }
@@ -39,7 +39,6 @@ homebrew_cask_packages:
   - { name: quitter }
   - { name: skitch }
   - { name: dash }
-  - { name: hosts }
   - { name: wireshark }
   - { name: intellij-idea }
   - { name: beyond-compare }
