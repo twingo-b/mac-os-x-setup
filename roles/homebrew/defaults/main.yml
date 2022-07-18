@@ -37,7 +37,6 @@ homebrew_cask_packages:
   - { name: sqlworkbenchj }
   - { name: skype }
   - { name: quitter }
-  - { name: skitch }
   - { name: dash }
   - { name: wireshark }
   - { name: intellij-idea }
@@ -58,6 +57,7 @@ homebrew_cask_packages:
   - { name: macvim-kaoriya }
 
 homebrew_packages:
+  - { name: daipeihust/tap/im-select }
   - { name: git-remote-codecommit }
   - { name: yukiarrr/tap/ecsk }
   - { name: dive }
