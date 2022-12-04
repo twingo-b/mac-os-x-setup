@@ -57,6 +57,7 @@ homebrew_cask_packages:
   - { name: macvim-kaoriya }
 
 homebrew_packages:
+  - { name: dotnet }
   - { name: daipeihust/tap/im-select }
   - { name: git-remote-codecommit }
   - { name: yukiarrr/tap/ecsk }
