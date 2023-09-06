@@ -37,6 +37,7 @@ npm_packages:
   - { name: npm-check-updates }
   - { name: yarn }
   - { name: aws-cdk }
+  - { name: '@aws/pdk' }
   - { name: '@aws-amplify/cli' }
   - { name: cli-sql-formatter }
   - { name: cfn-lint }
