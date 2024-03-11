@@ -28,6 +28,7 @@ pip_packages:
   - { name: doc2dash }
   - { name: sphinx }
   - { name: guzzle_sphinx_theme }
+  - { name: qrcode }
 
 go_packages:
 
